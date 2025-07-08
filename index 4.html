@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Premium Beauty Finds</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      color: #222;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .product-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      overflow: hidden;
+      padding: 1rem;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .product-card h3 {
+      margin: 0.5rem 0 0.2rem;
+      font-size: 1.1rem;
+    }
+    .product-card p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+    .product-card a {
+      display: inline-block;
+      margin-top: 0.7rem;
+      padding: 0.5rem 1rem;
+      background-color: #222;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 500;
+    }
+    .about {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid #ddd;
+      text-align: center;
+      font-size: 0.95rem;
+      color: #666;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.85rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Premium Beauty Finds</h1>
+  </header>
+
+  <div class="container">
+    <section class="product-grid">
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/51RQG5Bgx2L._SL1000_.jpg" alt="Luxury Vitamin C Serum">
+        <h3>Luxury Vitamin C Serum</h3>
+        <p>Brightens, boosts collagen, and protects from free radicals.</p>
+        <a href="https://amzn.to/44C7iQG" target="_blank">Shop Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/51wZTcc2ZTL._SL1000_.jpg" alt="Ultra Hydrating Face Cream">
+        <h3>Ultra Hydrating Face Cream</h3>
+        <p>Deep hydration with lasting moisture barrier support.</p>
+        <a href="https://amzn.to/4kLoRnP" target="_blank">Shop Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/71TkUZJjc4L._SL1500_.jpg" alt="Argan Oil Hair Treatment">
+        <h3>Argan Oil Hair Treatment</h3>
+        <p>Nourishes dry, damaged hair and adds shine naturally.</p>
+        <a href="https://amzn.to/4kt6YtK" target="_blank">Shop Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/81NiI+qXk9L._SL1500_.jpg" alt="Glow-Enhancing Face Mask">
+        <h3>Glow-Enhancing Face Mask</h3>
+        <p>Brightens and purifies for a radiant complexion.</p>
+        <a href="https://amzn.to/44AfO2V" target="_blank">Shop Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/61eRSZ-Kr0L._SL1500_.jpg" alt="Revitalizing Night Serum">
+        <h3>Revitalizing Night Serum</h3>
+        <p>Supports overnight renewal and smoother texture.</p>
+        <a href="https://amzn.to/44AfTUh" target="_blank">Shop Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/61R4cJK4YpL._SL1500_.jpg" alt="Anti-Aging Cream">
+        <h3>Anti-Aging Cream</h3>
+        <p>Reduces wrinkles and firms skin for a youthful glow.</p>
+        <a href="https://amzn.to/45Tbazg" target="_blank">Shop Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/61Z5cLFGkTL._SL1500_.jpg" alt="Hydra Booster Mist">
+        <h3>Hydra Booster Mist</h3>
+        <p>Hydrating mist refreshes and plumps dry skin instantly.</p>
+        <a href="https://amzn.to/4lOMm09" target="_blank">Shop Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/61LsNNUxuaL._SL1500_.jpg" alt="Gentle Face Cleanser">
+        <h3>Gentle Face Cleanser</h3>
+        <p>Effectively cleanses without stripping natural oils.</p>
+        <a href="https://amzn.to/4lLL0TS" target="_blank">Shop Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/61b3aYqFwLL._SL1500_.jpg" alt="Firming Eye Cream">
+        <h3>Firming Eye Cream</h3>
+        <p>Minimizes puffiness and fine lines for refreshed eyes.</p>
+        <a href="https://amzn.to/40FqNGZ" target="_blank">Shop Now</a>
+      </div>
+    </section>
+
+    <section class="about">
+      <p>We handpick premium skincare and beauty essentials to help you feel confident, radiant, and effortlessly you.</p>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 Premium Beauty Finds — Affiliate links may earn commission.
+  </footer>
+</body>
+</html>
